@@ -71,7 +71,12 @@ public class A1Adept {
 			} else if (total > biggest) {
 				bigName = first[j] + " " + last[j];
 				biggest = total;
-			
+			if (numCus == 1) {
+				smallName = first[j] + " " + last[j];
+				smallest = total;
+				bigName = first[j] + " " + last[j];
+				biggest = total;
+			}
 			
 		}
 		}
