@@ -68,17 +68,18 @@ public class A1Adept {
 			if (total < smallest || smallest == 0.0) {
 				smallName = first[j] + " " + last[j];
 				smallest = total;
+			}if (numCus == 1) {
+					smallName = first[j] + " " + last[j];
+					smallest = total;
+					bigName = first[j] + " " + last[j];
+					biggest = total;
 			} else if (total > biggest) {
 				bigName = first[j] + " " + last[j];
 				biggest = total;
-			if (numCus == 1) {
-				smallName = first[j] + " " + last[j];
-				smallest = total;
-				bigName = first[j] + " " + last[j];
-				biggest = total;
+
 			}
 			
-		}
+		
 		}
 				 System.out.println("Biggest: " + bigName + " (" + String.format("%.2f", ((double)biggest)) + ")");
 				 System.out.println("Smallest: " + smallName + " (" + String.format("%.2f", ((double)smallest)) + ")");
