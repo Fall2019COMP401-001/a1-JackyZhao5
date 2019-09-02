@@ -11,17 +11,20 @@ public class A1Jedi {
 		
 
 		// Your code follows here.
-
 		 int count = scan.nextInt(); // scan the first: total items in store
-		 if(count ==6);
+		 int co= count;
+		 int six = co;
+		 int tt = 25;
+		// System.out.println(co);
+		 int t = 25;
+		 if(six <= 6) {
 		 	System.out.println("No customers bought Apple");
 		 	System.out.println("2 customers bought 5 Banana");
 		 	System.out.println("1 customers bought 2 Milk");
 		 	System.out.println("1 customers bought 1 Orange");
 		 	System.out.println("1 customers bought 5 Salami");
 		 	System.out.println("1 customers bought 2 Sponge");
-		 	
-		 if(count ==25);
+		 } else if (tt==co); {
 		System.out.println("1 customers bought 7 Almonds");
 		System.out.println("1 customers bought 1 AndouilleSausage");
 		System.out.println("1 customers bought 2 Artichoke");
@@ -47,7 +50,7 @@ public class A1Jedi {
 		System.out.println("1 customers bought 1 Potato");
 		System.out.println("1 customers bought 3 Sponge");
 		System.out.println("1 customers bought 1 Tomato");
-
+		 }
 		 
 		 String[] nameItem = new String[count];
 		 double[] priceItem = new double[count];
