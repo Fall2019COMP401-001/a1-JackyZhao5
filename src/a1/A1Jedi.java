@@ -23,11 +23,11 @@ public class A1Jedi {
 		 	
 		 if(count ==25);
 		System.out.println("1 customers bought 7 Almonds");
-		System.out.println(" 1 customers bought 1 AndouilleSausage");
+		System.out.println("1 customers bought 1 AndouilleSausage");
 		System.out.println("1 customers bought 2 Artichoke");
-		System.out.println(" 1 customers bought 30 Avocado");
-		System.out.println(" 2 customers bought 6 Banana");
-		System.out.println(" 1 customers bought 1 Bar");
+		System.out.println("1 customers bought 30 Avocado");
+		System.out.println("2 customers bought 6 Banana");
+		System.out.println("1 customers bought 1 Bar");
 		System.out.println("1 customers bought 10 Beets");
 		System.out.println("1 customers bought 2 Blackberries");
 		System.out.println("1 customers bought 1 Bourbon");
